@@ -1,0 +1,17 @@
+# In your c:\users\[your user name] directory create a folder called .aws
+# Place this file in the .aws folder
+# do not add any extension on this file
+#
+
+# To install all drivers
+
+# pip install dwave-ocean-sdk
+# pip install boto3
+# pip install amazon-braket-sdk
+
+[default]
+region = us-east-1
+
+aws_access_key_id=YoUrAccESsKey
+aws_secret_access_key=SecuRityAcceSsKey
+
