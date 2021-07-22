@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Deny",
+            "Action": [
+                "braket:CreateQuantumTask",
+                "braket:CancelQuantumTask",
+                "braket:GetQuantumTask",
+                "braket:SearchQuantumTasks",
+                "braket:GetDevice",
+                "braket:SearchDevices"
+            ],
+            "Resource": [
+                "arn:aws:braket::[add account id]:device/qpu/*"
+            ]
+        }
+    ]
+}

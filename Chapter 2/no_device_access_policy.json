@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Deny",
+            "Action": [
+                "braket:GetQuantumTask",
+                "braket:CreateQuantumTask",
+                "braket:CancelQuantumTask"
+            ],
+            "Resource": "arn:aws:braket::[add account id]:device/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Deny",
+            "Action": [
+                "braket:GetDevice",
+                "braket:SearchDevices",
+                "braket:SearchQuantumTasks"
+            ],
+            "Resource": "arn:aws:braket::[add account id]:device/*"
+        }
+    ]
+}
