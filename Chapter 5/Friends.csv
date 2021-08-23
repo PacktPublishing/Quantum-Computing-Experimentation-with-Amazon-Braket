@@ -1,0 +1,7 @@
+﻿,Alice,Bob,Charlie,David,Eve,Frank
+Alice,0.5,,,,,
+Bob,1,0,,,,
+Charlie,0.5,0.25,-0.25,,,
+David,-0.5,-1,0,-0.5,,
+Eve,-1,-1,0.25,0.5,-1,
+Frank,0.25,-0.25,0,0.5,-0.5,-0.5
