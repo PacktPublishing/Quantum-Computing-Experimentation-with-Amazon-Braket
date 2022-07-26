@@ -75,6 +75,10 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Essential Mathematics for Quantum Computing [[Packt]](https://www.packtpub.com/product/essential-mathematics-for-quantum-computing/9781801073141?utm_source=github&utm_medium=repository&utm_campaign=9781801073141) [[Amazon]](https://www.amazon.com/dp/1801073147)
 
+* Dancing with Python [[Packt]](https://www.packtpub.com/product/dancing-with-python/9781801077859) [[Amazon]](https://www.amazon.com/dp/1801077851)
+
+* * Dancing with Python [[Packt]](hhttps://www.packtpub.com/product/dancing-with-qubits/9781838827366) [[Amazon]](https://www.amazon.com/dp/1838827366)
+
 ## Get to Know the Author
 **Alex Khan**
 is an advisor, entrepreneur, and educator in quantum computing. He currently heads QuantFi USA operations and is the CEO of ZebraKet, an Ontario based quantum startup in supply chain optimization. Alex has been working in quantum computing since 2018 and was the CPO at Chicago Quantum where he co-authored papers on portfolio optimization using D-Wave. He continues to be an advisor at QuSecure. As a Corporate Faculty, he teaches undergraduate to graduate level courses in quantum computing at Harrisburg University. He has participated in multiple hackathons, advised on a research paper on COVID optimization using quantum annealing, developed solutions for VR game optimization and NLP using D-Wave and has presented introductory topics in quantum computing at quantum meetups including using D-Wave and IonQ through Amazon Braket. Alex has over 20 years of experience providing IT solutions, developing products, and managing large IT initiatives in the healthcare and insurance industry. He is an engineering/physics dual major and received his BSME from Purdue University, MSME from KSU, MBA with Health Sector Management from Duke University and a certificate in quantum computing from MIT|xPro.
