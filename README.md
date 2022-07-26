@@ -63,9 +63,9 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1-13        | Python and Jupyter Notebook                   | Windows, Mac OS X |
-| 1-13       | Amazon Braket SDK and Boto3             | Windows, Mac OS X |
-| 1-13        | D-Wave Ocean SDK             | Windows, Mac OS X |
+| 1-13        | Python and Jupyter Notebook                   | Windows |
+| 1-13       | Amazon Braket SDK and Boto3             | Windows |
+| 1-13        | D-Wave Ocean SDK             | Windows |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/4tYx3).
 
