@@ -77,7 +77,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Dancing with Python [[Packt]](https://www.packtpub.com/product/dancing-with-python/9781801077859) [[Amazon]](https://www.amazon.com/dp/1801077851)
 
-* * Dancing with Python [[Packt]](hhttps://www.packtpub.com/product/dancing-with-qubits/9781838827366) [[Amazon]](https://www.amazon.com/dp/1838827366)
+* Dancing with Qubits [[Packt]](hhttps://www.packtpub.com/product/dancing-with-qubits/9781838827366) [[Amazon]](https://www.amazon.com/dp/1838827366)
 
 ## Get to Know the Author
 **Alex Khan**
