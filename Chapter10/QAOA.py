@@ -3,14 +3,14 @@
 
 # In[ ]:
 
-
-#Chapter 10 - Amazon Braket Hybrid Jobs, Pennylane and Containers
-#© 2021, 2022 Packt Publishing
+# Qantum Computing Experimentation with Amazon Braket
+### Chapter 10 - Amazon Braket Hybrid Jobs, Pennylane and Containers
+#© 2021, 2022, 2023 Packt Publishing
 
 #Written by Alex Khan
 
 #QAOA.py 
-#use with Chapter 10 - Amazon Braket Hybrid Jobs, Pennylane and Containers.ipynb
+#use with Chapter 10 - Amazon Braket Hybrid Jobs, Pennylane and other Braket Features.ipynb
 
 
 # In[1]:
@@ -40,7 +40,7 @@ def param_optimizer_device(param1, param2, Q, shots,device):
                 for j in range (len(Q)):
                     if i<j:
                         if Q[i,j]!=0:
-                            if device.name=='Aspen-11' or device.name=='Aspen-M-1':
+                            if device.name=='Aspen-M-3':
                                 qc=qc.cnot(i, j).rz(j, param1[p1]*Q[i,j]).cnot(i, j)
                             else:
                                 qc=qc.zz(i,j,2*param1[p1]*Q[i,j])
@@ -78,7 +78,7 @@ def param_optimizer_device(param1, param2, Q, shots,device):
 def optimize_bqm_device(param1, param2, Q, shots, device):
     
     qc=Circuit()
-    # below is specifically for Aspen-M1- matrix
+    # below is specifically for Ionq- matrix
     for i in range(len(Q)):
         if Q[i,i]!=0:
             qc=qc.x(i).h(i)
@@ -93,12 +93,12 @@ def optimize_bqm_device(param1, param2, Q, shots, device):
             for j in range (len(Q)):
                 if i<j:
                     if Q[i,j]!=0:
-                        if device.name=='Aspen-11'or device.name=='Aspen-M-1':
+                        if device.name=='Aspen-M-3':
                             qc=qc.cnot(i, j).rz(j, param1[p]*Q[i,j]).cnot(i, j)
                         else:
                             qc=qc.zz(i,j,2*param1[p]*Q[i,j])
         for i in range(len(Q)):
-		if Q[i,i]!=0:
+            if Q[i,i]!=0:
                 qc=qc.rx(i,2*param2[p])
     
         task = device.run(qc, shots=shots)
